@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Alegreya+Sans:300');
+
+body {
+  padding: 70px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}

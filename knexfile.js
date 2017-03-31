@@ -1,4 +1,4 @@
-const databaseName = 'plato';
+const databaseName = 'blog';
 
 module.exports = {
   development: {

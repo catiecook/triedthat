@@ -3,6 +3,7 @@ exports.up = (knex) => {
     table.increments();
     table.string('url');
     table.integer('user_id').references('id').inTable('users').onDelete('CASCADE');
+    table.integer('post_id').references('id').inTable('posts').onDelete('CASCADE');
     table.timestamps(true, true);
   });
 };

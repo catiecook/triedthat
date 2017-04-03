@@ -11,6 +11,8 @@
         knex('users').insert({
           username: 'catie',
           password: hash,
+          email: 'catiecook888@gmail.com',
+          admin: true,
         })     // eslint-disable-line comma-dangle
       );
     });

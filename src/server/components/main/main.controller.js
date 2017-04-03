@@ -7,7 +7,7 @@
 
   function main(req, res, next) {
     const renderObject = {};
-    renderObject.title = 'Welcome to Express!';
+    // renderObject.title = 'Tried That';
     renderObject.messages = req.flash('messages');
     renderObject.user = req.user;
     try {

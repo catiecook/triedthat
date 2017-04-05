@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Alegreya+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 
 body {
   padding: 70px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px 'Oswald', sans-serif;
   }
 
 a {

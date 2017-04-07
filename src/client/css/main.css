@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Alegreya+Sans:300');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300');
 
 body {
   padding: 70px;
-  font: 14px 'Oswald', sans-serif;
+  font: 14px 'Roboto Condensed', sans-serif;
   }
 
 a {
   color: black;
+}
+
+h1 {
+  font: 18px 'Oswald', sans-serif;
+}
+
+.navbar {
+  font: 18px 'Oswald', sans-serif;
 }

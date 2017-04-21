@@ -15,7 +15,7 @@
         {% if not user %}
         <li><a href="/users/login">Login</a></li>
         <li><a href="/users/register">Register</a></li>
-        <li><a href="/users/register">Explore</a></li>
+        <li><a href="/users/explore">Explore</a></li>
         {% elif user %}
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> <span class="caret"></span></a>
@@ -23,7 +23,7 @@
             <li><a href="/">Home</a></li>
             <li><a href="/users/logout">Logout</a></li>
             <li><a href="/users">Users</a></li>
-            <li><a href="/users/register">Explore</a></li>
+            <li><a href="/users/explore">Explore</a></li>
           </ul>
         </li>
         {% endif %}

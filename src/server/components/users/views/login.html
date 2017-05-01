@@ -4,18 +4,34 @@
 
 {% block content %}
 
-  <div class="row">
+  <div class="row login-container">
     <div class="col-md-4">
       <h1>{{title}}</h1>
-      <hr><br>
+      <hr>
       <form class="form-group" role="form" action="/users/login" method="post">
-        <input type="hidden" name="_csrf" value="{{csrf}}">
-        <input class="form-control form-group" type="text" name="username" placeholder="Enter Username">
-        <input class="form-control form-group" type="password" name="password" placeholder="Password">
-        <button class="btn btn-default" type="submit">Submit</button>
+        <input
+          type="hidden"
+          name="_csrf"
+          value="{{csrf}}">
+        <input
+          class="form-control form-group"
+          type="text"
+          name="username"
+          placeholder="Enter Username">
+        <input
+          class="form-control form-group"
+          type="password"
+          name="password"
+          placeholder="Password">
+        <button
+          class="btn btn-primary"
+          type="submit">Submit</button>
         &nbsp;
-        <a href="/"><button class="btn btn-primary" type="button">Cancel</button></a>
+        <detail class="small">
+          Don't have an account? <a href="/users/register"> Sign up here! </a>
+        </detail>
       </form>
+
     </div>
   </div>
 
